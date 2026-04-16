@@ -2,13 +2,13 @@
   "name": "background_worker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main.js",
-    "worker": "node worker.js",
-    "dev": "nodemon main.js",
-    "dev-worker": "nodemon worker.js"
+    "start": "node src/server.js",
+    "worker": "node src/worker.js",
+    "dev": "nodemon src/server.js",
+    "dev-worker": "nodemon src/worker.js"
   },
   "repository": {
     "type": "git",
